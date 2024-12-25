@@ -1,0 +1,39 @@
+.button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .button-primary {
+    background-color: #0046be;
+    color: white;
+    border: none;
+  }
+  
+  .button-primary:hover {
+    background-color: #002f7a;
+  }
+  
+  .button-secondary {
+    background-color: #e0e0e0;
+    color: #333;
+    border: none;
+  }
+  
+  .button-secondary:hover {
+    background-color: #c0c0c0;
+  }
+  
+  .button-ghost {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #ccc;
+  }
+  
+  .button-ghost:hover {
+    background-color: #f0f0f0;
+  }
+  
+  

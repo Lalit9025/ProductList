@@ -1,0 +1,31 @@
+.filters-container {
+    margin-bottom: 24px;
+  }
+  
+  .filter-section {
+    margin-bottom: 24px;
+  }
+  
+  .filter-title {
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+  
+  .price-inputs {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .price-input {
+    width: 80px;
+  }
+  
+  .checkbox-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  

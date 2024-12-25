@@ -1,0 +1,185 @@
+.container {
+  display: flex;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  gap: 30px;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+
+.layout {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.imageContainer {
+  position: relative;
+  aspect-ratio: 16/9;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 500px;
+  height: auto;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.productName {
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.modelInfo {
+  color: #5a5a5a;
+  font-size: 0.875rem;
+}
+
+.ratings {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.stars {
+  display: flex;
+  gap: 2px;
+}
+
+.star, .starFilled {
+  font-size: 1.25rem;
+}
+
+.star {
+  color: #ccc;
+}
+
+.starFilled {
+  color: #ffe000;
+}
+
+.ratingCount {
+  color: #0046be;
+  font-size: 0.875rem;
+}
+
+.pricing {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem 0;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.mainPrice {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.currentPrice {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.savings {
+  color: #bb0628;
+  font-weight: 600;
+}
+
+.originalPrice {
+  color: #5a5a5a;
+  text-decoration: line-through;
+  font-size: 0.875rem;
+}
+
+.financing {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.monthlyPrice {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.financingInfo {
+  color: #5a5a5a;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.optionSection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.optionLabel {
+  color: #5a5a5a;
+  font-size: 0.875rem;
+}
+
+.seriesName {
+  font-weight: 600;
+}
+
+.sizeSelector {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.sizeOption {
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 4px;
+  background: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.sizeOption:hover {
+  border-color: #0046be;
+}
+
+.sizeOption.selected {
+  border-color: #0046be;
+  background: #0046be;
+  color: white;
+}
+
+.loading, .error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.error {
+  color: #bb0628;
+}
+
